@@ -28,6 +28,15 @@ div.calculator {
     margin: 0 auto;
     text-align: center;
   }
+
+  p{
+    font-size: 10px;
+    text-align: start;
+    text-transform: capitalize;
+    margin: 0;
+    padding-bottom: 10px;
+    text-decoration: underline #fff;
+  }
   
   .display {
     width: 100%;
@@ -50,7 +59,7 @@ div.calculator {
 
     background: #333;
     color: #f0f0f0;
-    border-radius: 12px;
+    border-radius: 14px;
     letter-spacing: 0.2em;
   }
 
@@ -60,7 +69,7 @@ div.calculator {
   }
   
   .operator {
-    background-color: #ff9c00;
+    background-color: #f07c3e;
     border-radius: 12px; 
     font-weight: 600;
   }
@@ -69,12 +78,13 @@ div.calculator {
     background-color: #ff4d4d;
   }
 
-  .green{
-    background: rgb(5, 95, 5);
+  .green, .equals{
+    background: #055f05;
     color: #ff9c00;
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
     font-family: cursive;
   }
-    
+
+  
